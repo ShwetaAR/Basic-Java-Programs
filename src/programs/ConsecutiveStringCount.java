@@ -13,6 +13,7 @@ public class ConsecutiveStringCount {
 
 	private static void findCount(String str) {
 		char[] strArr = str.toCharArray();
+		
 		Collection<String> charCounts = new ArrayList<>();
 		int length = strArr.length - 1;
 		int count = 0;
